@@ -1,6 +1,12 @@
-sibilou = input("A criança já sibilou uma vez na vida?\n")
+print("Digite as informações sobre a criança:")
+
+nomecrianca = input("Qual o nome completo da criança?")
+nomeresponsavel = input("Qual o nome completo do responsável pela criança?")
+idaderesponsavel = int(input("Qual a idade do responsável pela criança?"))
+
+sibilou = input("A criança já sibilou uma vez na vida?")
 if sibilou == "sim":
-  idade = input("A idade da criança é maior ou igual a 3 anos?\n")
+  idade = input("A idade da criança é maior ou igual a 3 anos?")
   if idade == "sim":
     print("Provavelmente NÃO é asma induzida por vírus. Provável asma atópica, encaminhar ao especialista para iniciar tratamento preventivo.")
   else:
