@@ -17,31 +17,30 @@ def multiplicacao():
   contamultiplicacao = x * y
   print("Você escolheu multiplicação:", x, "*", y, "=", contamultiplicacao)
 
+def fazconta():
+  if conta == "soma" or conta == "Soma":
+    soma()
+  elif conta == "subtracao" or conta == "Subtração" or conta == "subtração":
+    subtracao()
+  elif conta == "divisao" or conta == "Divisão" or conta == "divisão":
+    divisao()
+  elif conta == "multiplicacao" or conta == "Multiplicação" or conta == "multiplicação":
+    multiplicacao()
+  else:
+    print("Digite o tipo de conta novamente ")
 
 conta = input("Qual operação básica? Ex: soma, subtração, multiplicação ou divisão ")
 num1 = input("Digite o primeiro número: ")
 num2 = input("Digite o segundo número: ")
 
-try:
-  x = int(num1)
-  y = int(num2)
-except ValueError:
-  while num1.isdigit() == False or num2.isdigit() == False:
-    print("Digite apenas números!")
-    num1 = input("Digite o primeiro número novamente: ")
-    num2 = input("Digite o segundo número novamente: ")
+while num1 != 0 and num2 != 0:
+  try:
     x = int(num1)
     y = int(num2)
-  
-
-if conta == "soma" or conta == "Soma":
-  soma()
-elif conta == "subtracao" or conta == "Subtração" or conta == "subtração":
-  subtracao()
-elif conta == "divisao" or conta == "Divisão" or conta == "divisão":
-  divisao()
-elif conta == "multiplicacao" or conta == "Multiplicação" or conta == "multiplicação":
-  multiplicacao()
-else:
-  print("Digite o tipo de conta novamente ")
-
+  except:
+    print("---Digite apenas números!---")
+    num1 = input("Digite outro numero: ")
+    num2 = input("Digite outro numero: ")
+  else:
+    fazconta()
+    break
