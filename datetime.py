@@ -6,5 +6,6 @@ print("Hoje é dia:", x.date())
 print("Estamos no ano de:", x.year)
 print("Estamos no mês de:", x.month)
 
+# de outra forma
 print(x.strftime("%A,"), x.strftime("%B."))
 print(x.strftime("%x"), "-", x.strftime("%X"))
