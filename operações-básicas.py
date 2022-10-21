@@ -27,7 +27,7 @@ def fazconta():
   elif conta == "multiplicacao" or conta == "Multiplicação" or conta == "multiplicação":
     multiplicacao()
   else:
-    print("Digite o tipo de conta novamente ")
+    print("Algo deu errado!")
 
 conta = input("Qual operação básica? Ex: soma, subtração, multiplicação ou divisão ")
 num1 = input("Digite o primeiro número: ")
