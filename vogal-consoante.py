@@ -1,17 +1,18 @@
-name = input("Digit seu nome: ")
+name = input("Digite seu nome em letras minúsculas: ")
 
 vogal = ["a", "e", "i", "o", "u"]
 consoante = [ "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w","x", "y", "z"]
 
+print("--- VOGAIS ---")
 for i in vogal:
   if i in name:
     print("Seu nome tem a vogal:", i)
   else:
-    print("Seu nome não tem a vogal:", i)
+    continue
 
-
+print("--- CONSOANTE ---")
 for i in consoante:
   if i in name:
     print("Seu nome tem a consoante:", i)
   else:
-    print("Seu nome não tem a consoante:", i)
+    continue
