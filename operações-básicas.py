@@ -39,8 +39,8 @@ while num1 != 0 and num2 != 0:
     y = int(num2)
   except:
     print("---Digite apenas números!---")
-    num1 = input("Digite outro numero: ")
-    num2 = input("Digite outro numero: ")
+    num1 = input("Digite o primeiro numero: ")
+    num2 = input("Digite o segundo numero: ")
   else:
     fazconta()
     break
