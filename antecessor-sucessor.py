@@ -1,10 +1,10 @@
 def antecessor():
   conta = num - 1
-  print("O antecessor de", num, "é:", conta)
+  print(f'O antecessor de {num} é {conta}')
 
 def sucessor():
   conta = num + 1
-  print("O sucessor de", num, "é:", conta)
+  print(f'O sucessor de {num} é {conta}')
 
 num = int(input("Digite um número: "))
 antecessor()
