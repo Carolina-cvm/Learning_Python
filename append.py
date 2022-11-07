@@ -3,7 +3,7 @@ def adicionar_fruta():
   print(f'Voce adicionou {adc_fruta}, esta é a lista de frutas {frutas}')
 
 frutas = ["morango", "uva","melancia"]
-print("Esta é a lista de frutas:", frutas)
+print(f'Esta é a lista de frutas: {frutas}')
 
 alterar = input("Quer adicionar uma fruta? ")
 
