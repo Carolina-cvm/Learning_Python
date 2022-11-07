@@ -16,7 +16,7 @@ else:
   print("Voce está reprovado")
 
 """
-de outra forma
+# de outra forma
 notas = []
 contador = 1
 
