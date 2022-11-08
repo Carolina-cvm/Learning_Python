@@ -6,8 +6,8 @@ while contador < 6:
 
 listanum.sort() 
 print("Os números que voce digitou são:", listanum)
-print("O menor número é:", listanum[-5])
-print("O maior número é:", listanum[-1])
+print(f'O menor número é: {listanum[-5]}')
+print(f'O maior número é: {listanum[-1]}')
 
 # de outra forma
 #print("Menor número:", min(listanum))
