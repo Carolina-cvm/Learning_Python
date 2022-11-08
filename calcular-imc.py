@@ -6,7 +6,7 @@ peso = int(input("Digite seu peso em quilos: "))
 altura = float(input("Digite sua altura em metros: "))
 
 imc = (peso) / (altura * altura)
-print("Seu IMC é:", round(imc,2))
+print(f'Seu IMC é: {round(imc,2)}')
 
 if imc < 18.50:
   print("Classificação: Abaixo do peso")
