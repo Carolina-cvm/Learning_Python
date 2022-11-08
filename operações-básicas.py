@@ -1,21 +1,22 @@
 def soma():
   contasoma = x + y
-  print("Você escolheu soma:", x, "+", y, "=", contasoma)
+  print(f'Voce escolheu soma: {x} + {y} = {contasoma}')
 
 
 def subtracao():
   contasubtracao = x - y
-  print("Você escolheu subtração:", x, "-", y, "=", contasubtracao)
+  print(f'Voce escolheu subtração: {x} - {y} = {contasubtracao}')
+
 
 
 def divisao():
   contadivisao = x / y
-  print("Você escolheu divisão:", x, "/", y, "=", contadivisao)
+  print(f'Voce escolheu divisão: {x} / {y} = {contadivisao}')
 
 
 def multiplicacao():
   contamultiplicacao = x * y
-  print("Você escolheu multiplicação:", x, "*", y, "=", contamultiplicacao)
+  print(f'Voce escolheu multiplicação: {x} * {y} = {contamultiplicacao}')
 
 def fazconta():
   if conta == "soma" or conta == "Soma":
