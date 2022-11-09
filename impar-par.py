@@ -1,9 +1,9 @@
 def par_ou_impar():
   if numero % 2 == 0:
-    print(numero, "é número par")
+    print(f'{numero} é número par')
   else:
-    print(numero, "é número impar")
+    print(f'{numero} é número impar')
 
-numero = int(input('Informe um número inteiro qualquer: '))
+numero = int(input(f'Informe um número inteiro qualquer: '))
 par_ou_impar()
 
