@@ -6,7 +6,7 @@ def sucessor():
   conta = num + 1
   print(f'O sucessor de {num} é {conta}')
 
-num = int(input("Digite um número: "))
+num = int(input(f'Digite um número: '))
 antecessor()
 sucessor()
 
