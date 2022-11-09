@@ -6,13 +6,13 @@ consoante = [ "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "
 print("--- VOGAIS ---")
 for i in vogal:
   if i in name:
-    print("Seu nome tem a vogal:", i)
+    print(f'Seu nome tem a vogal: {i}')
   else:
     continue
 
 print("--- CONSOANTE ---")
 for i in consoante:
   if i in name:
-    print("Seu nome tem a consoante:", i)
+    print(f'Seu nome tem a consoante: {i}')
   else:
     continue
