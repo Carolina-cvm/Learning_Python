@@ -1,4 +1,4 @@
-name = input("Digite seu nome em letras minúsculas: ")
+name = input(f'Digite seu nome em letras minúsculas: ')
 
 vogal = ["a", "e", "i", "o", "u"]
 consoante = [ "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w","x", "y", "z"]
