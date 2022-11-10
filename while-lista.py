@@ -1,11 +1,11 @@
 listanum = []
 contador = 1
 while contador < 6:
-  listanum.append(int(input("Digite um número: ")))
+  listanum.append(int(input(f'Digite um número: ')))
   contador += 1
 
 listanum.sort() 
-print("Os números que voce digitou são:", listanum)
+print(f'Os números que voce digitou são: {listanum}')
 print(f'O menor número é: {listanum[-5]}')
 print(f'O maior número é: {listanum[-1]}')
 
