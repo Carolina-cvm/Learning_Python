@@ -1,4 +1,4 @@
-idade = int(input("Digite sua idade: "))
+idade = int(input(f'Digite sua idade: '))
 
 if 0 <= idade < 12:
   print("De acordo com o Estatuto da Criança e do Adolescente, voce é criança pois sua idade é", idade)
