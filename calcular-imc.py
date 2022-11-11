@@ -2,8 +2,8 @@
 # <=	Menor ou igual que
 
 print("Cálculo de IMC")
-peso = int(input("Digite seu peso em quilos: "))
-altura = float(input("Digite sua altura em metros: "))
+peso = int(input(f'Digite seu peso em quilos: '))
+altura = float(input(f'Digite sua altura em metros: '))
 
 imc = (peso) / (altura * altura)
 print(f'Seu IMC é: {round(imc,2)}')
