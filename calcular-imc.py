@@ -9,9 +9,9 @@ imc = (peso) / (altura * altura)
 print(f'Seu IMC é: {round(imc,2)}')
 
 if imc < 18.50:
-  print("Classificação: Abaixo do peso")
+  print(f'Classificação: Abaixo do peso')
 elif 18.60 <= imc <= 24.90:
-  print("Classificação: Peso ideial")
+  print(f'Classificação: Peso ideial')
 elif 25.00 <= imc <= 29.90:
   print("Classificação: Levemente acima do peso")
 elif 30.00 <= imc <= 34.90:
