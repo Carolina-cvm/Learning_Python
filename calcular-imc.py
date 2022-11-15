@@ -13,9 +13,9 @@ if imc < 18.50:
 elif 18.60 <= imc <= 24.90:
   print(f'Classificação: Peso ideial')
 elif 25.00 <= imc <= 29.90:
-  print("Classificação: Levemente acima do peso")
+  print(f'Classificação: Levemente acima do peso')
 elif 30.00 <= imc <= 34.90:
-  print("Classificação: Obesidade grau I")
+  print(f'Classificação: Obesidade grau I')
 elif 35.00 <= imc <= 39.90:
   print("Classificação: Obesidade grau II (severa)")
 else: #acima de 40
