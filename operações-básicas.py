@@ -30,7 +30,7 @@ def fazconta():
   else:
     print(f'Algo deu errado!')
 
-conta = input("Qual operação básica? Ex: soma, subtração, multiplicação ou divisão ")
+conta = input(f'Qual operação básica? Ex: soma, subtração, multiplicação ou divisão ')
 num1 = input("Digite o primeiro número: ")
 num2 = input("Digite o segundo número: ")
 
