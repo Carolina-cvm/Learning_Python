@@ -8,7 +8,7 @@ nota4 = int(input(f'Digite a quarta nota: '))
 notas.append(nota1, nota2, nota3, nota4)
 
 media = sum(notas) / len(notas)
-print("Sua média final foi:", media)
+print(f'Sua média final foi: {media}')
 
 if media >= 7:
   print("Voce está aprovado")
