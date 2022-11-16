@@ -1,5 +1,5 @@
 print('----Cálculo do novo salário ---- ')
-salario_atual = float(input("Informe o salario atual: "))
+salario_atual = float(input(f'Informe o salario atual: '))
 
 if (salario_atual < 500):
   salario_novo = salario_atual + (salario_atual * 0.15)
