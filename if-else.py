@@ -1,4 +1,4 @@
-sibilou = input("A criança já sibilou uma vez na vida?")
+sibilou = input(f'A criança já sibilou uma vez na vida?')
 
 if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
   idade = input("A idade da criança é maior ou igual a 3 anos?")
