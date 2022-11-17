@@ -5,9 +5,9 @@ def adicionar_fruta():
 frutas = ["morango", "uva", "melancia"]
 print(f'Esta é a lista de frutas: {frutas}')
 
-alterar = input("Quer adicionar uma fruta? ")
+escolha = input("Quer adicionar uma fruta? ")
 
-if alterar == 'adicionar' or alterar == 'sim':
+if escolha == 'adicionar' or escolha == 'sim':
   adc_fruta = input(f'Qual fruta voce quer adicionar? ')
   adicionar_fruta()
 else:
