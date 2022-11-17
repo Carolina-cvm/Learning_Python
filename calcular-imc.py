@@ -1,7 +1,7 @@
 # >=	Maior ou igual que
 # <=	Menor ou igual que
 
-print("Cálculo de IMC")
+print(f'Cálculo de IMC')
 peso = int(input(f'Digite seu peso em quilos: '))
 altura = float(input(f'Digite sua altura em metros: '))
 
