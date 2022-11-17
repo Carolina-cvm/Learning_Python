@@ -11,7 +11,7 @@ media = sum(notas) / len(notas)
 print(f'Sua média final foi: {media}')
 
 if media >= 7:
-  print("Voce está aprovado")
+  print(f'Voce está aprovado')
 else:
   print("Voce está reprovado")
 
