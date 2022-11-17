@@ -31,7 +31,7 @@ def fazconta():
     print(f'Algo deu errado!')
 
 conta = input(f'Qual operação básica? Ex: soma, subtração, multiplicação ou divisão ')
-num1 = input("Digite o primeiro número: ")
+num1 = input(f'Digite o primeiro número: ')
 num2 = input("Digite o segundo número: ")
 
 while num1 != 0 and num2 != 0:
