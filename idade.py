@@ -9,4 +9,4 @@ elif 18 <= idade <= 29:
 elif 30<= idade <=59:
   print(f'Voce é adulto, pois sua idade é {idade}')
 else: 
-  print("Voce é idoso")
+  print(f'Voce é idoso')
