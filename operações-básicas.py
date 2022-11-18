@@ -39,7 +39,7 @@ while num1 != 0 and num2 != 0:
     x = int(num1)
     y = int(num2)
   except:
-    print("---Digite apenas números!---")
+    print(f'---Digite apenas números!---')
     num1 = input(f'Digite o primeiro numero: ')
     num2 = input(f'Digite o segundo numero: ')
   else:
