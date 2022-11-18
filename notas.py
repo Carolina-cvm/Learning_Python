@@ -13,7 +13,7 @@ print(f'Sua média final foi: {media}')
 if media >= 7:
   print(f'Voce está aprovado')
 else:
-  print("Voce está reprovado")
+  print(f'Voce está reprovado')
 
 """
 # de outra forma
