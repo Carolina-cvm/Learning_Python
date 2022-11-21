@@ -13,7 +13,7 @@ if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
       else:
         print("Provavelmente NÃO é asma induzida por vírus. Provável asma atópica estabelecida, encaminhar ao especialista para acompanhar e iniciar tratamento preventivo.")
     else:
-      naoapresentacriterio = input("A criança não apresenta critérios menores?\n")
+      naoapresentacriterio = input(f'A criança não apresenta critérios menores?')
       if naoapresentacriterio == "sim" or naoapresentacriterio == "Sim" or naoapresentacriterio == "s":
         naoapresentacriteriovezes = input("Sibilou menos que 3x ao dia? (Dois episódios no total).\n")
         if naoapresentacriteriovezes == "sim" or naoapresentacriteriovezes == "Sim" or naoapresentacriteriovezes == "s":
