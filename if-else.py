@@ -3,7 +3,7 @@ sibilou = input(f'A criança já sibilou uma vez na vida?')
 if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
   idade = input(f'A idade da criança é maior ou igual a 3 anos?')
   if idade == "sim" or idade == "Sim" or idade == "s":
-    print("Provavelmente NÃO é asma induzida por vírus. Provável asma atópica, encaminhar ao especialista para iniciar tratamento preventivo.")
+    print(f'Provavelmente NÃO é asma induzida por vírus. Provável asma atópica, encaminhar ao especialista para iniciar tratamento preventivo.')
   else:
     criterio = input("A criança apresenta ao menos um dos critérios maiores?\n")
     if criterio == "sim" or criterio == "Sim" or criterio == "s":
