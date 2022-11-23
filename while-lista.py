@@ -11,4 +11,4 @@ print(f'O maior número é: {listanum[-1]}')
 
 # de outra forma
 #print(f'Menor número: {min(listanum)}')
-#print("Maior número:", max(listanum))
+#print(f'Maior número: {max(listanum)}')
