@@ -7,7 +7,7 @@ if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
   else:
     criterio = input(f'A criança apresenta ao menos um dos critérios maiores? ')
     if criterio == "sim" or criterio == "Sim" or criterio == "s":
-      criteriomenos3x = input("Sibilou menos que 3x ao dia? (Dois episódios no total).\n")
+      criteriomenos3x = input(f'Sibilou menos que 3x ao dia? (Dois episódios no total) ')
       if criteriomenos3x == "sim" or criteriomenos3x == "Sim" or criteriomenos3x == "s":
         print(f'Provavelmente NÃO é asma induzida por vírus. Provável asma atópica de início recente, encaminhar ao especialista para verificar necessidade de tratamento preventivo no futuro.')
       else:
