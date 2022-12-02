@@ -25,7 +25,7 @@ if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
           if apresentaumcriterio == "sim" or apresentaumcriterio == "Sim" OR apresentaumcriterio == "s":
               apresentaumcriteriovezes = input(f'Sibilou menos que 3x ao dia? (Dois episódios no total).')
               if apresentaumcriteriovezes == "sim":
-                  print("Provavelmente É asma induzida por vírus. Acompanhá-la periodicamente, não necessita iniciar o tratamento preventivo.")
+                  print(f'Provavelmente É asma induzida por vírus. Acompanhá-la periodicamente, não necessita iniciar o tratamento preventivo.')
               else:
                 print("Provavelmente É asma induzida por vírus. Acompanhá-la periodicamente, com eventos frequentes a decisão é individual pelo início do tratamento preventivo.")
           else:
