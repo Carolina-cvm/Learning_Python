@@ -1,5 +1,5 @@
 def tabuada():
-  print(f'TABUADA DO {num}')
+  print(f'Tabuada do número {num}')
   contador = 1
   while contador <= 10:
     conta = num * contador
