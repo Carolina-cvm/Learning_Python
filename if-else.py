@@ -37,6 +37,6 @@ if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
                 else:
                     print("Provavelmente NÃO é asma induzida por vírus. Provável asma atópica estabelecida, encaminhar ao especialista para acompanhar e iniciar tratamento preventivo.")
             else:
-                print("Não é asma induzida por vírus")  	
+                print(f'Não é asma induzida por vírus')  	
 else: 
   print("Não é asma induzida por vírus")	    
