@@ -1,4 +1,4 @@
-print('----Cálculo do novo salário ---- ')
+print('----Calcular o valor do novo salário ---- ')
 salario_atual = float(input(f'Informe o salario atual: '))
 
 if (salario_atual < 500):
