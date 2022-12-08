@@ -39,4 +39,4 @@ if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
             else:
                 print(f'Não é asma induzida por vírus')  	
 else: 
-  print("Não é asma induzida por vírus")	    
+  print(f'Não é asma induzida por vírus')	    
