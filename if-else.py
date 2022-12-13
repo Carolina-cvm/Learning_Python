@@ -33,7 +33,7 @@ if sibilou == "sim" or sibilou == "Sim" or sibilou == "s":
             if apresentadoiscriterios == "sim":
                 apresentadoiscriteriosvezes = input(f'Sibilou menos que 3x ao dia? (Dois episódios no total) ')
                 if apresentadoiscriteriosvezes == "sim":
-                    print("Provavelmente NÃO é asma induzida por vírus. Provável asma atópica, de início recente, encaminhar ao especialista, para verificar necessidade de tratamento preventivo no futuro.")
+                    print(f'Provavelmente NÃO é asma induzida por vírus. Provável asma atópica, de início recente, encaminhar ao especialista, para verificar necessidade de tratamento preventivo no futuro.')
                 else:
                     print(f'Provavelmente NÃO é asma induzida por vírus. Provável asma atópica estabelecida, encaminhar ao especialista para acompanhar e iniciar tratamento preventivo.')
             else:
