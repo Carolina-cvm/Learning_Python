@@ -2,17 +2,13 @@ def soma():
   contasoma = x + y
   print(f'Voce escolheu soma: {x} + {y} = {contasoma}')
 
-
 def subtracao():
   contasubtracao = x - y
   print(f'Voce escolheu subtração: {x} - {y} = {contasubtracao}')
 
-
-
 def divisao():
   contadivisao = x / y
   print(f'Voce escolheu divisão: {x} / {y} = {contadivisao}')
-
 
 def multiplicacao():
   contamultiplicacao = x * y
