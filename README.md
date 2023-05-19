@@ -3,6 +3,5 @@
 <h3 align="center">Estudando Python pelo W3Schools.</h3> 
 
 <p align="center"><a href="https://www.w3profile.com/carolina-cvm" target="_blank"><img src="https://img.shields.io/badge/W3Schools-04AA6D?style=for-the-badge&logo=W3Schools&logoColor=white"></a></p>
-
-<h3 align="center">Feito com ❤️ </h3>
+<p><h3 align="center">Feito com ❤️ </h3></p>
 
